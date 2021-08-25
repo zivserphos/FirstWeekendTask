@@ -4,7 +4,7 @@
 
 ## Your tasks:
 - [ ] Fork this repository to your github
-- [ ] With github desktop open the repo in vs code
+- [ ] With github desktop clone the repo and open it in vs code
 - [ ] Fulfill the user stories and get all of the tests to pass. Give it your own personal style.
 - [ ] For each user story submit a commit to github
 - [ ] After submission submit a link to your repo in google classroom
