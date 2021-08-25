@@ -10,9 +10,12 @@ _read all the tasks before starting_
 - [ ] For <strong>each</strong> user story submit a commit to github
 - [ ] Give it your own personal style
 - [ ] After finishing all the tasks submit a link to your repo in the google classroom
+- [ ] Indent your code!
+- [ ] Make the commit message meaningful
 - [ ] Bonus - Submit issues on your friends repos with improvements suggestions
 - [ ] Bonus - replace the <script> tag with local version of the tests files instead of the url vesrion provided
 - [ ] Bonus - deploy your project to github pages
+- [ ] Bonus - add local img to your repo and add it to your website
 
 Use HTML and CSS to complete this project. Happy coding!
 
