@@ -13,7 +13,7 @@ _read all the tasks before starting_
 - [ ] Indent your code!
 - [ ] Make the commit message meaningful
 - [ ] Bonus - Submit issues on your friends repos with improvements suggestions
-- [ ] Bonus - replace the <script> tag with local version of the tests files instead of the url vesrion provided
+- [ ] Bonus - replace the <script> tag with local version of the tests files instead of the url version provided
 - [ ] Bonus - deploy your project to github pages
 - [ ] Bonus - add local img to your repo and add it to your website
 
