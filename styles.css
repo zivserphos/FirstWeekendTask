@@ -1,13 +1,26 @@
 
+
+*
+{
+    padding:0;
+}
+
 #LIFE_IN_CUBA
 {
     background-color: #2C2E43;
 }
 
+.main-section h1
+{
+    color:crimson;
+}
+
+
 #LIFE_IN_ICELAND
 {
     background-color:#595260;
 }
+
 
 #LIFE_IN_ISRAEL
 {
@@ -24,7 +37,10 @@
     background-color:#71EFA3;
 }
 
-
+.main-section
+{
+    width: 150vh;
+}
 img
 {
     width: 400px;
@@ -32,21 +48,22 @@ img
 }
 #main-doc {
     position: absolute;
-    margin-left: 200px;
+    left: 200px;
     padding: 20px;
     margin-bottom: 110px;
   }
 
-.nav-link
+
+
+#navbar_border 
 {
-    color: brown;
+    list-style: none;
 }
 
-#nav_bar_border
+#navbar_border li
 {
-    border: 3px;
-    border-color: chocolate;
-
+    margin-bottom: 50px;
+    width: 100%;
 }
 
 
@@ -62,7 +79,7 @@ img
     background-color: yellow;
     border-right: solid;
     font-family: lobster;
-    font-size: 31px;
+    font-size: 23px;
 }
 
 @media only screen and(max-width: 600px)
