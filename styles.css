@@ -16,6 +16,18 @@ body
     width: 100%;
 }
 
+
+/*#LIFE_IN_CUBA .general_information
+{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Flag_of_Cuba.svg/1200px-Flag_of_Cuba.svg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+*/
+
+
+
 .main-section h1
 {
     color:crimson;
@@ -55,7 +67,7 @@ body
     display: flex;
     width: 100vh;
 }
-img
+.country-img
 {
     flex-grow: 10;
     width: 385px;
@@ -65,10 +77,22 @@ img
 }
 
 
+.general_information
+{
+    list-style: none;
+    display: inline-block;
+}
+
+.flag-img
+{
+    width: 70px;
+    height: 30px;
+}
+
+
 #main-doc {
     padding-left: 200px;
     left: 200px;
-    
   }
 
 
