@@ -17,17 +17,47 @@ body
 }
 
 
-/*#LIFE_IN_CUBA .general_information
+#LIFE_IN_CUBA .general_information
 {
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Flag_of_Cuba.svg/1200px-Flag_of_Cuba.svg.png);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 100%;
 }
-*/
 
 
+.special
+{
+    width: 300px;
+    margin-top: -200px;
+    margin-bottom: 150px;
+    font-size: 20px;
+    
+}
 
+#LIFE_IN_CUBA .special
+{
+    background-color: green;
+}
+
+#LIFE_IN_ICELAND .special
+{
+    background-color:blue;
+}
+
+#LIFE_IN_ISRAEL .special
+{
+    background-color: yellow;
+}
+
+#LIFE_IN_ARMENIA .special
+{
+    background-color:red;
+}
+
+#LIFE_IN_BRAZIL .special
+{
+    background-color: chocolate;
+}
 .main-section h1
 {
     color:crimson;
@@ -69,7 +99,6 @@ body
 }
 .country-img
 {
-    flex-grow: 10;
     width: 385px;
     height: 250px;
     padding-left: 380px;
@@ -81,6 +110,9 @@ body
 {
     list-style: none;
     display: inline-block;
+    border: 3px solid black;
+    width: 330px;
+    font-weight: bold;
 }
 
 .flag-img
