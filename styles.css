@@ -3,56 +3,72 @@
 *
 {
     padding:0;
+    margin: 5px;
 }
 
+body
+{
+    background-color: black;
+}
 #LIFE_IN_CUBA
 {
     background-color: #2C2E43;
+    width: 100%;
 }
 
 .main-section h1
 {
     color:crimson;
+    display: block;
+    width: 300px;
+    margin: 0px;
 }
 
 
 #LIFE_IN_ICELAND
 {
     background-color:#595260;
+    width: 100%;
 }
 
 
 #LIFE_IN_ISRAEL
 {
-    background-color:#B2B1B9 ;
+    background-color:#B2B1B9;
+    width: 100%;
 }
 
 #LIFE_IN_ARMENIA
 {
     background-color:#FFD523;
+    width: 100%;
 }
 
 #LIFE_IN_BRAZIL
 {
     background-color:#71EFA3;
+    width: 100%;
 }
 
 .main-section
 {
+    display: flex;
     width: 100vh;
 }
 img
 {
-    width: 400px;
-    height: 400px;
+    flex-grow: 10;
+    width: 385px;
+    height: 250px;
+    padding-left: 380px;
+    margin-top: -25px;
 }
 
 
 #main-doc {
-    position: absolute;
-    padding: 5px;
+    padding-left: 200px;
     left: 200px;
-    margin-bottom: 110px;
+    
   }
 
 
