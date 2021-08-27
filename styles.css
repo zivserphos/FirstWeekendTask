@@ -39,17 +39,19 @@
 
 .main-section
 {
-    width: 150vh;
+    width: 100vh;
 }
 img
 {
     width: 400px;
     height: 400px;
 }
+
+
 #main-doc {
     position: absolute;
+    padding: 5px;
     left: 200px;
-    padding: 20px;
     margin-bottom: 110px;
   }
 
@@ -62,8 +64,9 @@ img
 
 #navbar_border li
 {
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     width: 100%;
+    border-top: 3px solid black;
 }
 
 
