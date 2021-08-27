@@ -1,9 +1,68 @@
+
+#LIFE_IN_CUBA
+{
+    background-color: #2C2E43;
+}
+
+#LIFE_IN_ICELAND
+{
+    background-color:#595260;
+}
+
+#LIFE_IN_ISRAEL
+{
+    background-color:#B2B1B9 ;
+}
+
+#LIFE_IN_ARMENIA
+{
+    background-color:#FFD523;
+}
+
+#LIFE_IN_BRAZIL
+{
+    background-color:#71EFA3;
+}
+
+
+img
+{
+    width: 400px;
+    height: 400px;
+}
+#main-doc {
+    position: absolute;
+    margin-left: 200px;
+    padding: 20px;
+    margin-bottom: 110px;
+  }
+
+.nav-link
+{
+    color: brown;
+}
+
+#nav_bar_border
+{
+    border: 3px;
+    border-color: chocolate;
+
+}
+
+
 #navbar
 {
     position: fixed;
     width: 50%;
     left: 0;
     top: 0;
+    width: 200px;
+    height: 100%;
+    border-color: black;
+    background-color: yellow;
+    border-right: solid;
+    font-family: lobster;
+    font-size: 31px;
 }
 
 @media only screen and(max-width: 600px)
@@ -14,3 +73,4 @@
     }
     
 }
+
