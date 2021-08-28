@@ -6,6 +6,11 @@
     margin: 5px;
 }
 
+#header-block
+{
+    display: inline-block;
+}
+
 body
 {
     background-color: black;
