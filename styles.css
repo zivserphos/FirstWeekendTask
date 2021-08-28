@@ -113,7 +113,7 @@ body
 
 #LIFE_IN_ARMENIA .special
 {
-    background-color:red;
+    background-color:blue;
 }
 
 #LIFE_IN_BRAZIL .special
@@ -156,7 +156,7 @@ body
 
 .main-section
 {
-    display: flex;
+    display: inline-block;
     width: 100vh;
 }
 .country-img
