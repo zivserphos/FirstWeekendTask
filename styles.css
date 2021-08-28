@@ -1,0 +1,229 @@
+
+*
+{
+    padding:0;
+    margin: 5px;
+}
+
+#header-block
+{
+    display: inline-block;
+}
+
+body
+{
+    background-color: black;
+}
+#LIFE_IN_CUBA
+{
+    background-color: #2C2E43;
+    width: 100%;
+}
+
+
+#LIFE_IN_CUBA .general_information
+{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Flag_of_Cuba.svg/1200px-Flag_of_Cuba.svg.png);
+    background-size: cover;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+
+#LIFE_IN_ICELAND .general_information
+{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Iceland.svg/125px-Flag_of_Iceland.svg.png");
+    background-size: cover;
+    height: 200px;
+    background-repeat: no-repeat;
+    
+}
+
+#LIFE_IN_ISRAEL .general_information
+{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/100px-Flag_of_Israel.svg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 220px;
+}
+
+#LIFE_IN_ARMENIA .general_information
+{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_Armenia.svg/125px-Flag_of_Armenia.svg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+#LIFE_IN_BRAZIL .general_information
+{
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/125px-Flag_of_Brazil.svg.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.reference
+{
+    margin-left: 450px;
+    margin-top: -205px;
+    margin-bottom: 140px;
+    font-size: 25px;
+}
+
+.language
+{
+    padding-left: 270px;
+    margin-top: -100px;
+    margin-bottom: 50px;
+    width: 200px;
+    font-size: 15px;
+    
+}
+
+
+.language mark
+{
+    color: blue;
+}
+
+.special
+{
+    width: 300px;
+    margin-top: -200px;
+    margin-bottom: 150px;
+    font-size: 20px;
+    
+}
+
+#LIFE_IN_CUBA .special
+{
+    background-color: green;
+}
+
+#LIFE_IN_ICELAND .special
+{
+    background-color:blue;
+}
+
+#LIFE_IN_ISRAEL .special
+{
+    background-color: yellow;
+}
+
+#LIFE_IN_ARMENIA .special
+{
+    background-color:red;
+}
+
+#LIFE_IN_BRAZIL .special
+{
+    background-color: chocolate;
+}
+.main-section h1
+{
+    color:crimson;
+    display: block;
+    width: 300px;
+    margin: 0px;
+}
+
+
+#LIFE_IN_ICELAND
+{
+    background-color:#595260;
+    width: 100%;
+}
+
+
+#LIFE_IN_ISRAEL
+{
+    background-color:#B2B1B9;
+    width: 100%;
+}
+
+#LIFE_IN_ARMENIA
+{
+    background-color:#FFD523;
+    width: 100%;
+}
+
+#LIFE_IN_BRAZIL
+{
+    background-color:#71EFA3;
+    width: 100%;
+}
+
+.main-section
+{
+    display: flex;
+    width: 100vh;
+}
+.country-img
+{
+    width: 385px;
+    height: 250px;
+    padding-left: 380px;
+    margin-top: -25px;
+}
+
+
+.general_information
+{
+    list-style: none;
+    display: inline-block;
+    border: 3px solid black;
+    width: 330px;
+    font-weight: bold;
+}
+
+.flag-img
+{
+    width: 70px;
+    height: 30px;
+}
+
+
+#main-doc {
+    padding-left: 200px;
+    left: 200px;
+  }
+
+
+
+#navbar_border 
+{
+    list-style: none;
+}
+
+#navbar_border li
+{
+    margin-bottom: 60px;
+    width: 100%;
+    border-top: 3px solid black;
+}
+
+
+#navbar
+{
+    position: fixed;
+    width: 50%;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    border-color: black;
+    background-color: yellow;
+    border-right: solid;
+    font-family: lobster;
+    font-size: 23px;
+}
+
+@media only screen and(max-width: 600px)
+{
+    #navbar
+    {
+        width: 100%;
+    }
+    
+}
+
