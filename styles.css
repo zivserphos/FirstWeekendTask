@@ -21,6 +21,11 @@ body
     width: 100%;
 }
 
+#red
+{
+    color:red;
+}
+
 
 #LIFE_IN_CUBA .general_information
 {
@@ -84,7 +89,7 @@ body
 
 .language mark
 {
-    color: red;
+    color: blue;
 }
 
 .special
@@ -175,6 +180,7 @@ body
     border: 3px solid black;
     width: 330px;
     font-weight: bold;
+    background-color: darkgrey;
 }
 
 .flag-img
